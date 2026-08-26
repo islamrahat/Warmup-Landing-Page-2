@@ -4,10 +4,200 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Warmup Landing Page 2, from Gamil's Figma</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    
+<body class="font-[Manrope] overflow-x-hidden">
+    <nav class="grid grid-cols-4 gap-4 fixed w-[100%] items-center justify-items-center py-[10px]">
+        <div class="">
+            <img src="assets/images/navlogo.svg">
+        </div>
+        <div class="col-span-2 font-[Manrope]">
+            <ul class="flex gap-[50px]">
+                <li><a href="" class="cursor-pointer">Create Resume</a></li>
+                <li><a href="" class="cursor-pointer">Skillset</a></li>
+                <li><a href="" class="cursor-pointer">Partnered Job Board</a></li>
+                <li><a href="" class="cursor-pointer">Contact Us</a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="flex cursor-pointer border border-white  rounded-[25px] border-2">
+                <span class="px-[15px] py-[10px]">Register Now</span>
+                <svg class="w-[40px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+</button>
+        </div>
+    </nav>
+    <section>
+        <div class="relative w-[100vw] h-[100vh] overflow-hidden">
+            <div class="w-[150px] h-[700px] bg-[#3b1fe7] absolute top-[-200px] right-0 rounded-[50%] filter blur-[75px] rotate-45 z-[-1]"></div>
+            <div class="w-[150px] h-[700px] bg-[#3b1fe7] absolute top-[-200px] right-[200px] rounded-[50%] filter blur-[75px] rotate-45 z-[-1]"></div>
+            <div class="w-[150px] h-[700px] bg-[#3b1fe7] absolute top-[-200px] left-0 rounded-[50%] filter blur-[75px] -rotate-45 z-[-1]"></div>
+            <div class="w-[150px] h-[700px] bg-[#3b1fe7] absolute top-[-200px] left-[200px] rounded-[50%] filter blur-[75px] -rotate-45 z-[-1]"></div>
+            <div class="py-[100px]">
+                <div class="flex items-center justify-items-center flex-col text-center">
+                    <div class="text-xs border border-white px-[20px] py-[5px] bg-white rounded-[20px] flex items-center">
+                        <svg class="px-[10px] w-[40px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+    </svg>
+                        Your #1 Platform for Skill Sharing</div>
+                    <h1 class="font-bold text-[48px] py-[5px] text-[#002B6B]">Showcase your mastery. <br>Get connected</h1>
+                    <p class="text-[14px] w-[370px]">Create your profile, showcase your skills, and let employers find you.</p>
+                </div>
+            </div>
+            <div class="flex items-center justify-center">
+                <div class="text-[14px] mt-[-20px]">
+                    <input type="text" placeholder="e.g. UX Designer" class="rounded-l-[50px] m-0 p-[5px] w-[200px] pl-[20px] bg-white">
+                    <input type="text" placeholder="e.g. Liverpool, USA" class="rounded-r-[50px] m-0 p-[5px] text-right w-[200px] pr-[20px] bg-white">
+                    <button class="rounded-[50px] bg-[#0066ff] text-white p-[5px] px-[20px] ml-[20px]">Search</button>
+                </div>
+            </div>
+            
+            <!-- cards -->
+            <div class="flex gap-[20px] pt-[40px] items-center justify-center">
+                <div><img src="assets/images/white-guy-1.svg" class="w-[288px]"></div>
+                <div><img src="assets/images/cool-guy.svg" class="w-[288px]"></div>
+                <div><img src="assets/images/white-lady.svg" class="w-[288px]"></div>
+                <div><img src="assets/images/white-guy-2.svg" class="w-[288px]"></div>
+                <div><img src="assets/images/banik.jpg" class="w-[250px] rounded-[10px]"></div>
+            </div>
+        </div>
+    </section>
+    <section class="h-[100vh] flex pt-[80px] text-center flex-col items-center bg-[#FAFAFA]">
+        <!-- text  -->
+        <div>
+            <div class="text-[42px] font-bold text-[#1E242C]">Discover the <br>Emerging Masters</div>
+            <p class="text-[14px] text-[#414D60]">Find the best master for your company and boosts your business 10x!</p>
+        </div>
+        <!-- tabs  -->
+        <div>
+        <ul class="flex text-[#414D60]">
+            <li class="p-[20px]"><a href="">Developer</a></li>
+            <li class="p-[20px]"><a href="">UI Designer</a></li>
+            <li class="p-[20px]"><a href="">Project Manager</a></li>
+            <li class="p-[20px]"><a href="">Designer</a></li>
+            <li class="p-[20px]"><a href="">Accountant</a></li>
+            <li class="p-[20px]"><a href="">Human Resource</a></li>
+            <li class="p-[20px]"><a href="">Marketing</a></li>
+        </ul>
+        <hr class="text-[#414D60]">
+        </div>
+        <!-- cards  -->
+        <div class="p-[20px] grid grid-cols-4">
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+            <div class="flex flex-col items-center p-10 border border-1 border-[#414D60] rounded-[10px] bg-white m-[10px] shadow-lg/20">
+                <img src="assets/images/white-guy-2.svg" class="w-[50px]" style="clip-path: circle(50%);">
+                <div class="text-[12px] flex"><svg class="w-[15px] p-[2px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+</svg>
+4.8/5</div>
+                <div class="font-bold">White Guy 2</div>
+                <p class="text-[12px]">Model</p>
+                <p class="text-[12px]">
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft1</button>
+                    <button class="border border-1 px-[15px] rounded-[10px] mt-[5px]">Ft2</button>
+                </p>
+            </div>
+        </div>
+        <div>
+            <button class="border border-1 border-[#8AB9FF] px-[10px] py-[5px] cursor-pointer flex rounded-[20px] text-[#0066FF] font-[200px] bg-white text-[14px] justify-center items-center">View All<svg class="w-[30px] pl-[5px]" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+</svg>
+            </button>
+        </div>
+    </section>
 </body>
 </html>
